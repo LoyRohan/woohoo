@@ -1,0 +1,359 @@
+{
+	"api": "category",
+	"status": 200,
+	"data": {
+		"id": "26",
+		"name": "Woohoo Gift Cards & E-Gift Cards",
+		"thumbnail": "",
+		"image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/category/Anniversary_gift_cards.jpg",
+		"description": "<b>Woohoo.in</b>, India's largest online gift-cards- superstore, is the one-stop shop for all your gifting needs. It offers you the choice to gift your loved ones gift cards, gift vouchers and e-gift cards from the best brands, such as Amazon, Myntra, Croma, Shoppers Stop, Lifestyle, Pantaloons, Bookmyshow, PVR Cinemas, MakeMyTrip, Cleartrip, Titan &amp; Fastrack (to name a few). If you are unsure about the recipient's preference of the brand, you can gift a Woohoo gift card. Your loved ones can use the Woohoo gift card to select gift cards of their favourite brands on Woohoo.in. They can also use the card by loading it on the Woohoo App.",
+		"short_description": "Woohoo.in, India's largest online gift-cards- superstore, is the one-stop shop for all your gifting needs.",
+		"page_title": null,
+		"meta_title": null,
+		"meta_description": null,
+		"meta_keywords": null, 
+		"canonical_url": null,
+		"meta_index": "1",
+		"_links": {
+			"self": {
+				"href": "/rest/category/26"
+			},
+			"url": {
+				"href": "woohoo"
+			}
+		},
+		"_embedded": {
+			"products": [{
+				"entity_id": "7",
+				"entity_type_id": "4",
+				"attribute_set_id": "9",
+				"type_id": "simple",
+				"sku": "woohoo-e-gift-card",
+				"has_options": "1",
+				"required_options": "0",
+				"created_at": "2015-06-22 11:09:08",
+				"updated_at": "2019-01-25 10:14:42",
+				"cat_index_position": "1",
+				"status": "1",
+				"visibility": "4",
+				"iin": "198881",
+				"add_to_wallet": "1",
+				"product_name": "Woohoo E-Gift Card(Test)",
+				"url_key": "woohoo-e-gift-card",
+				"small_image": "/r/i/ring_1.jpg",
+				"brand": "5",
+				"mobile": "/w/o/woohoo_card_image_1.png",
+				"sellable_in_market": "1",
+				"market_display_name": "woohoo web",
+				"couponcode_desc": "Up to 15% OFF | Use Code: TEST15",
+				"card_program_group": "Giftbig UBE",
+				"category_ids": ["2", "23", "24", "25", "26", "32", "36", "38"],
+				"brand_logo": {
+					"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/brands_logo/5_logo.png",
+					"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/brands_logo/5_logo.png"
+				},
+				"id": [2, 23, 24, 25, 26, 32, 36, 38],
+				"name": "Woohoo E-Gift Card(Test)",
+				"product_id": "7",
+				"discounts": [{
+					"startDate": null,
+					"endDate": null,
+					"discount": {
+						"type": "by_percent",
+						"amount": 10,
+						"desc": "10% off on new years"
+					},
+					"coupon": {
+						"code": "NY2019"
+					},
+					"priority": 0
+				}, {
+					"startDate": "2019-01-24T00:00:00+0000",
+					"endDate": "2019-01-31T23:59:59+0000",
+					"discount": {
+						"type": "by_percent",
+						"amount": 25,
+						"desc": "Ghost25"
+					},
+					"coupon": {
+						"code": "Ghost25"
+					},
+					"priority": 0
+				}, {
+					"startDate": "2018-12-04T00:00:00+0000",
+					"endDate": "2019-01-10T23:59:59+0000",
+					"discount": {
+						"type": "by_percent",
+						"amount": 10,
+						"desc": "1 per customer, max coupon code to be used will be 100 times"
+					},
+					"coupon": {
+						"code": "WOO10"
+					},
+					"priority": 1
+				}],
+				"cashbacks": [],
+				"images": {
+					"small_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/r/i/ring_1.jpg",
+					"strip_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_card_image_1.png",
+					"card_image": {
+						"logo": {
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/19_logo_image.png",
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/19_logo_image.png"
+						},
+						"card": {
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/19_card_image.png",
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/19_card_image.png"
+						}
+					}
+				},
+				"_links": {
+					"self": {
+						"href": "/product/7"
+					},
+					"next": {
+						"href": "/product/23"
+					},
+					"url": {
+						"href": "woohoo-e-gift-card"
+					}
+				}
+			}, {
+				"entity_id": "23",
+				"entity_type_id": "4",
+				"attribute_set_id": "9",
+				"type_id": "simple",
+				"sku": "sangam2",
+				"has_options": "1",
+				"required_options": "0",
+				"created_at": "2016-06-01 05:41:19",
+				"updated_at": "2019-01-24 09:02:57",
+				"cat_index_position": "1",
+				"status": "1",
+				"visibility": "4",
+				"iin": "789978",
+				"add_to_wallet": "0",
+				"product_name": "Sangam2",
+				"url_key": "13th-floor",
+				"small_image": "/b/i/birthday_344x98.jpg",
+				"brand": "7",
+				"mobile": "/w/o/woohoo_card_image.png",
+				"sellable_in_market": "0",
+				"market_display_name": null,
+				"couponcode_desc": "10% off on PhonePe payment",
+				"card_program_group": "ansh_demo",
+				"category_ids": ["2", "8", "24", "25", "26"],
+				"brand_logo": {
+					"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/brands_logo/",
+					"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/brands_logo/"
+				},
+				"id": [2, 8, 24, 25, 26],
+				"name": "Sangam2",
+				"product_id": "23",
+				"discounts": [{
+					"startDate": "2019-01-24T00:00:00+0000",
+					"endDate": "2019-01-31T23:59:59+0000",
+					"discount": {
+						"type": "by_percent",
+						"amount": 25,
+						"desc": "Ghost25"
+					},
+					"coupon": {
+						"code": "Ghost25"
+					},
+					"priority": 0
+				}],
+				"cashbacks": [],
+				"images": {
+					"small_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/b/i/birthday_344x98.jpg",
+					"strip_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_card_image.png",
+					"card_image": {
+						"logo": {
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						},
+						"card": {
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						}
+					}
+				},
+				"_links": {
+					"self": {
+						"href": "/product/23"
+					},
+					"prev": {
+						"href": "/product/7"
+					},
+					"next": {
+						"href": "/product/55"
+					},
+					"url": {
+						"href": "13th-floor"
+					}
+				}
+			}, {
+				"entity_id": "55",
+				"entity_type_id": "4",
+				"attribute_set_id": "9",
+				"type_id": "simple",
+				"sku": "woohoophysicalcard",
+				"has_options": "1",
+				"required_options": "1",
+				"created_at": "2016-08-24 12:53:13",
+				"updated_at": "2018-11-27 11:12:07",
+				"cat_index_position": "1",
+				"status": "1",
+				"visibility": "4",
+				"iin": "789978",
+				"add_to_wallet": "0",
+				"product_name": "Woohoo Gift Card (Woohoo Gift Card - In Special Red Wedding Package)",
+				"url_key": "woohoo-physical-card",
+				"small_image": "/w/o/woohoo_phy_card_image.png",
+				"brand": null,
+				"mobile": "/w/o/woohoo_phy_card_image.png",
+				"sellable_in_market": "1",
+				"market_display_name": null,
+				"couponcode_desc": null,
+				"card_program_group": "woohoo Dinning Cards",
+				"category_ids": ["24", "25", "26", "29", "33", "36", "37", "38"],
+				"id": [24, 25, 26, 29, 33, 36, 37, 38],
+				"name": "Woohoo Gift Card (Woohoo Gift Card - In Special Red Wedding Package)",
+				"product_id": "55",
+				"discounts": [{
+					"startDate": null,
+					"endDate": null,
+					"discount": {
+						"type": "by_percent",
+						"amount": 10,
+						"desc": "10% off on new years"
+					},
+					"coupon": {
+						"code": "NY2019"
+					},
+					"priority": 0
+				}, {
+					"startDate": "2019-01-24T00:00:00+0000",
+					"endDate": "2019-01-31T23:59:59+0000",
+					"discount": {
+						"type": "by_percent",
+						"amount": 25,
+						"desc": "Ghost25"
+					},
+					"coupon": {
+						"code": "Ghost25"
+					},
+					"priority": 0
+				}],
+				"cashbacks": [],
+				"images": {
+					"small_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image.png",
+					"strip_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image.png",
+					"card_image": {
+						"logo": {
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						},
+						"card": {
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						}
+					}
+				},
+				"_links": {
+					"self": {
+						"href": "/product/55"
+					},
+					"prev": {
+						"href": "/product/23"
+					},
+					"next": {
+						"href": "/product/66"
+					},
+					"url": {
+						"href": "woohoo-physical-card"
+					}
+				}
+			}, {
+				"entity_id": "66",
+				"entity_type_id": "4",
+				"attribute_set_id": "9",
+				"type_id": "simple",
+				"sku": "Woohoo Zero _physical",
+				"has_options": "1",
+				"required_options": "1",
+				"created_at": "2016-10-19 09:22:04",
+				"updated_at": "2018-11-29 12:42:19",
+				"cat_index_position": "1",
+				"status": "1",
+				"visibility": "4",
+				"iin": "789978",
+				"add_to_wallet": "0",
+				"product_name": "Woohoo Zero physical",
+				"url_key": "woohoo-zero-physical",
+				"small_image": "/w/o/woohoo_phy_card_image_1.png",
+				"brand": null,
+				"mobile": "/w/o/woohoo_phy_card_image_1.png",
+				"sellable_in_market": "0",
+				"market_display_name": null,
+				"couponcode_desc": null,
+				"card_program_group": "woohoo Dinning Cards",
+				"category_ids": ["24", "25", "26", "33"],
+				"id": [24, 25, 26, 33],
+				"name": "Woohoo Zero physical",
+				"product_id": "66",
+				"discounts": [{
+					"startDate": null,
+					"endDate": null,
+					"discount": {
+						"type": "by_percent",
+						"amount": 10,
+						"desc": "10% off on new years"
+					},
+					"coupon": {
+						"code": "NY2019"
+					},
+					"priority": 0
+				}, {
+					"startDate": "2019-01-24T00:00:00+0000",
+					"endDate": "2019-01-31T23:59:59+0000",
+					"discount": {
+						"type": "by_percent",
+						"amount": 25,
+						"desc": "Ghost25"
+					},
+					"coupon": {
+						"code": "Ghost25"
+					},
+					"priority": 0
+				}],
+				"cashbacks": [],
+				"images": {
+					"small_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image_1.png",
+					"strip_image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image_1.png",
+					"card_image": {
+						"logo": {
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						},
+						"card": {
+							"large": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/",
+							"small": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/cardimage/"
+						}
+					}
+				},
+				"_links": {
+					"self": {
+						"href": "/product/66"
+					},
+					"prev": {
+						"href": "/product/55"
+					},
+					"url": {
+						"href": "woohoo-zero-physical"
+					}
+				}
+			}]
+		}
+	}
+}

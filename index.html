@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="woohoo.css" />
+  <title>woohoo</title>
+</head>
+
+<body>
+  <div id="storename"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-12 navbar navbar-expand-lg bg-light d-sm-none d-md-block p-0 ">
+        <div class=" collapse navbar-collapse justify-content-end">
+          <a class=" nav-link active" href="#" href="#">Store Card</a>
+          <a class=" nav-link active" href="#" href="#">Load Card</a>
+          <a class=" nav-link active" href="#" href="#">Check Balance</a>
+          <a class=" nav-link active" href="#" href="#">Corporate Gifting</a>
+          <a class=" nav-link active" href="#" href="#">Contact US</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle nav-item nav-link active" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">About woohoo</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item nav-link active" style="text-decoration: none;" href="#">About US</a>
+              <a class="dropdown-item nav-link active" style="text-decoration: none;" href="#">Blog</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col-12 bg-warning p-3">
+        <div class="row">
+          <div class="col-4 col-lg-2 col-xl-2 col-md-2">
+            <span class="logoimg"></span>
+            <!--<a href="#" ><img class="logoImg" src="http://d2lovok6l778xu.cloudfront.net/mobidev/media/head/logo/logonew.svg"></a>-->
+          </div>
+          <div class="col-lg-6 col-12 col-sm-12 col-md-5 mt-2 mb-2">
+            <span><input class="rounded search-box" type="text" placeholder="Search By" /></span>
+          </div>
+          <div class="d-none d-md-block col-lg-2 col-md-3 text-center">
+            <span id="download_app"></span>
+          </div>
+          <div class="d-none d-md-block col-lg-1 col-md-2 text-center p-1">
+            <span id="">Login/Register</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <nav class="col-12 col-md-12 navbar navbar-expand-lg navbar-expand-md navbar-light bg-light d-none d-md-block col-lg-12  ">
+        <div class="navbar-collapse justify-content-center" id="navbarNav">
+          <div class="navbar-nav navigationbar">
+            <!-- <div class="nav-item"></div>
+                                                <div class="navsubItem"></div>-->
+            <!-- <div class="nav-item topmenu">
+                                                        <div class="dropdown-menu justify-content-center text-left p-3">
+                                                                <ul class="p-0 d-flex">By Category</p>
+                                                                        <a href="#">Apparel</a>
+                                                                        <br>
+                                                                        <a href="#">Accessories</a>
+                                                                <p class="p-0 d-flex">By Occasion</p>
+                                                                        <li><a href="#">Gift card for Bday</a></li>
+                                                                        <li><a href="#">Gift card for wedding</a></li>
+                                                                <p class="p-0 d-flex">By Recipient</p>
+                                                                        <li><a href="#">Gift card for Men</a></li>
+                                                                        <li><a href="#">Gift card for women</a></li>
+                                                        </div>  
+
+                                                </div>-->
+            <!--<div class="nav-item topmenu"><a class="nav-link" href="#">Group Gifting</a></div>-->
+            <!--<div class="nav-item topmenu"><a class="nav-link" href="#">Redeem Woohoo</a></div>-->
+            <!--<div class="nav-item topmenu"><a class="nav-link" href="#">Offers</a></div>-->
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- <div class="row">
+                        <div class="col-12 bg-warning col-logo-img pt-3 pb-3">
+                                <span class="col-lg-2 col-xl-2 col-sm-4"></span>
+                                <span class="logoImg"></span></span>
+                                -------------------<a href="#" class="pl-4"><img
+                                                class="logoImage" style="width:10%;" src="http://d2lovok6l778xu.cloudfront.net/mobidev/media/head/logo/logonew.svg"></a>-------------------
+                                <span class="pl-3"><input type="text" class="rounded " placeholder="Search By" style="width:50%; height: 100; "></span>
+                                <span class="offset-lg-2">
+                                       
+                                        <a href="#" class="pl-3" style="text-decoration: none; color: white">login/Register</a>
+                                </span>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-12 d-lg-none d-md-none bg-warning pb-2">
+                                <div>
+                                        <div id="mySidenav" class="sidenav">
+                                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                                <a href="#">Download App</a>
+                                                <a href="#">Store Card</a>
+                                                <a href="#">Load Card</a>
+                                                <a href="#">Check Balance</a>
+                                                <a href="#">Corperate Gifting</a>
+                                                <a href="#">Contact us</a>
+                                                <div>
+                                                        <a href="#">About woohoo</a>
+                                                        <div>
+                                                                <a href="#">About Us</a>
+                                                                <a href="#">Blog</a>
+                                                        </div>
+                                                </div>
+
+                                        </div>
+                                        <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+                                        <script>
+                                                function openNav() {
+                                                        document.getElementById("mySidenav").style.width = "250px";
+                                                }
+
+                                                function closeNav() {
+                                                        document.getElementById("mySidenav").style.width = "0";
+                                                }
+                                        </script>
+                                        <span class="col-5 logoImg"></span>
+                                </div>
+                               
+                                <div>
+                                        <input type="text" class="rounded" placeholder="Search By" style="width:100%; height: 25%;">
+                                </div>
+                        </div>
+                </div>-->
+
+
+    <div class="row text-center">
+      <!--<div class="col-12 d-lg-none d-md-none d-lx-none navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-collapse  " id="navbarNav">
+          <div class="navbar-nav">
+            <div class="nav-item "><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/brand-new.svg" /></a>
+              <div class="nav-item">Brand Cards</div>
+            </div>
+            <div class="nav-item"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/categories-new.svg" /></a>
+              <div class="nav-item">Categories</div>
+            </div>
+            <div class="nav-item"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/group-new.svg" /></a>
+              <div>Group Gifting</div>
+            </div>
+            <div class="nav-item"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/redeem-new.svg" /></a>
+              <div>Redeem woohoo</div>
+            </div>
+            <div class="nav-item"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/offers-new.svg" /></a>
+              <div>Offers</div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+      <div class="col-12 col-sm-12 col-xs-12 d-md-none d-lg-none d-xl-none">
+
+        <div class="row justify-content-center">
+          <div class="icon p-3 ">
+            <div class=" mobileIcon"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/brand-new.svg" /></a>
+              <div class="nav-item">Brand Cards</div>
+            </div>
+            <div class=" mobileIcon"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/categories-new.svg" /></a>
+              <div class="nav-item">Categories</div>
+            </div>
+            <div class=" mobileIcon"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/group-new.svg" /></a>
+              <div>Group Gifting</div>
+            </div>
+            <div class=" mobileIcon"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/redeem-new.svg" /></a>
+              <div>Redeem woohoo</div>
+            </div>
+            <div class=" mobileIcon"><a href="#"><img width="24" src="https://d2lovok6l778xu.cloudfront.net/mobidev/media/mobile/offers-new.svg" /></a>
+              <div>Offers</div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 bg-dark d-none d-md-block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-12 d-md-none g-lg-none d-xl-none ">
+        <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner mobileBanner "></div>
+        </div>-->
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="mobileBanner"></div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 col-xl-10 col-sm-12 col-md-12 ">
+        <div id="woohooGift"></div>
+        <div class="border-bottom  col-12"></div>
+        <div class="h6 pb-3 pt-3" id="woohooIndia"> </div>
+        <div class="row justify-content-center cards">
+          <!--<div class="col-12 col-lg-12 col-xl-12 col-md-12 col-sm-12 ">
+            <div class="row justify-content-center ">
+                <div class="row justify-content-center cards">
+
+
+          <div class="col-lg-3 col-xl-3 col-sm-3 col-xs-3 col-5 col-md-5 p-2">
+            <a href="#"><img class="img-fluid productImg " src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_card_image_1.png" /></a>
+            <div class="">Woohoo E-Gift Card(Test)</div>
+            <span>10% off on new years | Use Code :<span style="color:orange;">
+                NY2019</span></span>
+          </div>
+          <div class=" col-lg-3 col-xl-3 col-sm-3 col-xs-3 col-5 col-md-5  p-2 ">
+            <a href="#"><img class="img-fluid productImg" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_card_image.png" /></a>
+
+            <div class="">Sangam2</div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-sm-3 col-xs-3 col-5 col-md-5  p-2">
+            <a href="#"><img class="img-fluid productImg" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image.png" /></a>
+
+            <div>
+              Woohoo Gift Card (Woohoo Gift Card - In Special Red Wedding
+              Package)
+            </div>
+            <span>10% off on new years | Use Code :<span style="color: orange;">
+                NY2019</span></span>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-sm-3 col-5 col-md-5  p-2">
+            <a href="#"><img class="img-fluid productImg" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image_1.png" /></a>
+
+            <div>Woohoo Zero physical</div>
+            <span>10% off on new years | Use Code :
+              <span style="color:orange;">NY2019</span></span>
+          </div>-->
+        </div>
+
+
+        <div class="row justify-content-center">
+          <div class="p-5 text-center col-lg-4 col-xl-12 col-md-12 col-sm-12 col-12">
+            <a href="#">
+              <button class="p-2 pl-3 pr-3 but" type="text">
+                View More
+              </button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class=" col-12 scrollmenu" style="background-color:#2f4f4f;">
+        <div class="row  justify-content-center">
+        
+          <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-8" style="outline:none; "><a href="#"><img src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Spar_300x300_1.jpg"
+                class="img-fluid"></a></div>
+          <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-8" style="outline:none;"><a href="#"><img src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/300X300.jpg"
+                class="img-fluid"></a></div>
+          <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-8" style="outline:none; white-space: nowrap;"><a href="#"><img src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Grocery-Week_Logo-Unit_300x300.jpg"
+                class="img-fluid"></a></div>
+          <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-8" style="outline:none; "><a href="#"><img src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Unit-300x300.png"
+                class="img-fluid"></a></div>
+          <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-8" style="outline:none; "><a href="#"><img src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Spar_300x300_1_1.jpg"
+                class="img-fluid"></a></div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center m-0">
+      <div class="col-12 col-lg-10 col-xl-10 col-md-12 col-sm-12">
+        <h4>More Brands - E-Gift Cards</h4>
+        <div class="border-bottom col-12"></div>
+        <div class="pt-3 pb-3">
+          Woohoo.in, India's largest online gift-cards- superstore, is the
+          one-stop shop for all your gifting needs.
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-12 col-xl-12 col-md-12 d-flex align-content-start flex-wrap">
+            <div class="row">
+              <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/s/a/samplecard_1_10.png" />
+                  <div style=" color: black;"> Amazon.in E Gift Card </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid rounded" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/t/h/thu.png" />
+                  <div style="text-decoration: none; color: black;">Flipkart</div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/b/o/bookmyshow200x120_1.jpg" />
+                  <div style="text-decoration: none; color: black;">Book My Show E gift card </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMTIgMjAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTIgMjAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0YyRjJGMjt9Cgkuc3Qxe2ZpbGw6I0NDQ0NDQzt9Cgkuc3Qye2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMDIsMjAwSDEwYy01LjUsMC0xMC00LjUtMTAtMTBWMTBDMCw0LjUsNC41LDAsMTAsMGgyOTJjNS41LDAsMTAsNC41LDEwLDEwdjE4MEMzMTIsMTk1LjUsMzA3LjUsMjAwLDMwMiwyMDB6CgkiLz4KPHBhdGggY2xhc3M9InN0MSIgZD0iTTE5MCwxMDBjMCwxOC41LTE1LDMzLjQtMzMuNCwzMy40cy0zMy40LTE1LTMzLjQtMzMuNHMxNS0zMy40LDMzLjQtMzMuNFMxOTAsODEuNSwxOTAsMTAweiIvPgo8cG9seWdvbiBjbGFzcz0ic3QyIiBwb2ludHM9IjE2Ni41LDkyLjQgMTYyLjUsMTAzLjYgMTU5LjUsOTUuMyAxNTguNSw5Mi40IDE1NC40LDkyLjQgMTUzLjQsOTUuMyAxNTAuNiwxMDMuMyAxNDYuNyw5Mi40IAoJMTQwLjYsOTIuNCAxNDcuNSwxMTEuOCAxNDguMywxMTQgMTUyLjgsMTE0IDE1My42LDExMS44IDE1Ni40LDEwMy43IDE1OS40LDExMi4xIDE2MC4yLDExNCAxNjQuOSwxMTQgMTY1LjUsMTEyLjEgMTcyLjUsOTIuNCAiLz4KPHBhdGggY2xhc3M9InN0MiIgZD0iTTE1Ni42LDY4LjdjLTE3LjIsMC0zMS4yLDE0LTMxLjIsMzEuM2MwLDE3LjIsMTQsMzEuMiwzMS4zLDMxLjJzMzEuMi0xNCwzMS4yLTMxLjNjMC0xNy4yLTE0LTMxLjEtMzEuMi0zMS4yCglIMTU2LjZ6IE0xNTYuNiwxMjguOWMtMTYsMC0yOC45LTEyLjktMjguOS0yOC45czEyLjktMjguOSwyOC45LTI4LjlTMTg1LjUsODQsMTg1LjUsMTAwYzAsMCwwLDAsMCwwbDAsMAoJQzE4NS41LDExNS45LDE3Mi42LDEyOC45LDE1Ni42LDEyOC45TDE1Ni42LDEyOC45eiIvPgo8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMTU2LjYsNzMuNWMtMTQuNywwLTI2LjUsMTEuOS0yNi41LDI2LjVzMTEuOSwyNi41LDI2LjUsMjYuNWMxNC43LDAsMjYuNS0xMS45LDI2LjUtMjYuNWwwLDBsMCwwCgljMC0xNC42LTExLjgtMjYuNS0yNi40LTI2LjVIMTU2LjZ6IE0xNTYuNiwxMjQuMWMtMTMuMywwLTI0LjEtMTAuOC0yNC4xLTI0LjFzMTAuOC0yNC4xLDI0LjEtMjQuMWMxMy4zLDAsMjQuMSwxMC44LDI0LjEsMjQuMQoJQzE4MC43LDExMy4zLDE2OS45LDEyNC4xLDE1Ni42LDEyNC4xeiIvPgo8cGF0aCBjbGFzcz0ic3QyIiBkPSJNMTU2LjYsNzcuN2MtMTIuMywwLTIyLjMsMTAtMjIuMywyMi4zczEwLDIyLjMsMjIuMywyMi4zYzEyLjMsMCwyMi4zLTEwLDIyLjMtMjIuM2wwLDBsMCwwCgljMC0xMi4zLTkuOS0yMi4zLTIyLjItMjIuM2MwLDAsMCwwLDAsMEgxNTYuNnogTTE1Ni42LDEyMC4zYy0xMS4yLDAtMjAuMy05LjEtMjAuMy0yMC4zczkuMS0yMC4zLDIwLjMtMjAuMwoJYzExLjIsMCwyMC4zLDkuMSwyMC4zLDIwLjNjMCwwLDAsMCwwLDBsMCwwQzE3Ni45LDExMS4yLDE2Ny44LDEyMC4zLDE1Ni42LDEyMC4zQzE1Ni42LDEyMC4zLDE1Ni42LDEyMC4zLDE1Ni42LDEyMC4zeiIvPgo8L3N2Zz4K" />
+                  <div style="text-decoration: none; color: black;"> Westside E Gift card/TestIngPG</div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/t/a/tanishq200x120.jpg" />
+                  <div style="text-decoration: none; color: black;">Tanishq Gold Voucher</div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/c/r/croma200x120_thumnail.jpg" />
+                  <div style="text-decoration: none; color: black;">Croma E Gift Card</div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/f/l/flower_1_gc312x200.png" />
+                  <div style="text-decoration: none; color: black;"> Pantaloons E Gift Card </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-4 col-6 col-sm-6 col-6 p-2" style="outline:none; width:280px;">
+                <a href="#"><img class="img-fluid" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/s/s/ss_thumbnail_2.jpg" />
+                  <div style="text-decoration: none; color: black;"> Shopper Stop E Gift Card </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="p-5 text-center col-lg-4 col-xl-12 col-md-12 col-sm-12 col-12">
+        <a href="#">
+          <button class="p-2 pl-3 pr-3 but" type="text">
+            View More
+          </button></a>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-12 col-md-12 col-xl-10 col-lg-10  ">
+        <div class="header pb-3 h4">Hot Deals,Offers and Special Products</div>
+        <div class="border-bottom "></div>
+
+        <div class="row ">
+          <div class="col-12 col-lg-12 col-sm-12 col-md-12 col-xl-12 d-flex align-content-start flex-wrap">
+            <div class="row">
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/s/a/samplecard_2_16.png" />
+                  <div>Jabong E Gift card</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/t/h/thumbnail.jpg" />
+                  <div>PVR E Gift Card</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6 p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/c/e/central200x120.jpg" />
+                  <div>Central Gift Voucher</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/c/r/croma200x120_thumnail.jpg" />
+                  <div>Croma E Gift Card</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/t/i/titan_thumbnail.jpg" />
+                  <div>Titan E Gift Card</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/c/l/cleartrip200x120.jpg" />
+                  <div>Cleartrip</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/t/h/thu.png" />
+                  <div>Flipkart</div>
+                </a>
+              </div>
+              <div class="col-6 col-xl-3 col-lg-3 col-md-4 col-sm-6  p-2">
+                <a href="#"><img class="img-fluid productImg" style="width:100%;" src="https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/catalog/product/w/o/woohoo_phy_card_image.png" />
+                  <div>
+                    Woohoo Gift Card (Woohoo Gift Card - In Special Red Wedding
+                    Package) 10% off on new years | Use Code :
+                    <span style="color:orange;">NY2019</span>
+                  </div>
+
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <div id="foot"></div>
+        <div class="row">
+          <div class=" col-12 col-lg-12 col-md-12 col-sm-12 bg-dark ">
+            <div class="T&C"></div>
+            <span class="float-right socialMedia"></span>
+            <div class="pl-1" id="Copyright" style="color:white;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="http://localhost/woohoo/woohoo.js"></script>
+  <script src="http://localhost/woohoo/home.js"></script>
+  <script src="http://localhost/woohoo/footTitle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+{
+    "store_id": 3,
+    "website_id": 1,
+    "min_age": 1,
+    "head": {
+        "favicon": "favicon/default/favicon.png",
+        "meta_image": "Seo/Woohoo_logo_seo.jpg"
+    },
+    "header": {
+        "download_app": {
+            "enabled": true,
+            "href": "/mobile",
+            "label": "Download App"
+        },
+        "logo": {
+            "url": "head/logo/logonew.svg",
+            "href": "/",
+            "title": "woohoo.in"
+        },
+        "top_menu": [{
+            "label": "Brand Cards",
+            "image": "mobile/brand-new.svg",
+            "href": "/brand-gift-cards"
+        }, {
+            "label": "Categories",
+            "image": "mobile/categories-new.svg",
+            "menu": [{
+                "label": "By Category",
+                "href": "/by-category",
+                "menu": [{
+                    "label": "Apparel",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }, {
+                    "label": "Accessories",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }]
+            }, {
+                "label": "By Occasion",
+                "href": "/by-occasion",
+                "menu": [{
+                    "label": "Gift Cards for Birthday",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }, {
+                    "label": "Gift Cards for Wedding",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }]
+            }, {
+                "label": "By Recipient",
+                "href": "/more-brands-gift-cards-gift-vouchers",
+                "menu": [{
+                    "label": "Gift Cards for Men",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }, {
+                    "label": "Gift Cards for Womens",
+                    "href": "/more-brands-gift-cards-gift-vouchers"
+                }]
+            }]
+        }, {
+            "label": "Group Gifting",
+            "image": "mobile/group-new.svg",
+            "href": "/group-gift"
+        }, {
+            "label": "Redeem Woohoo",
+            "image": "mobile/redeem-new.svg",
+            "href": "/redeem-woohoo"
+        }, {
+            "label": "Offers",
+            "image": "mobile/offers-new.svg",
+            "href": "/offers"
+        }],
+        "top_right_menu": [{
+            "label": "Store Card",
+            "href": "/account",
+            "target": ""
+        }, {
+            "label": "Load Card",
+            "href": "/loadcard",
+            "target": ""
+        }, {
+            "label": "Check Balance",
+            "href": "/balenq",
+            "target": ""
+        }, {
+            "label": "Corporate Gifting",
+            "href": "/corporate-gifting",
+            "target": ""
+        }, {
+            "label": "Contact US",
+            "href": "/contact",
+            "target": ""
+        }, {
+            "label": "About Woohoo",
+            "menu": [{
+                "label": "About Us",
+                "href": "/about-us"
+            }, {
+                "label": "Blog",
+                "href": "https://blog.woohoo.in/",
+                "target": "_blank"
+            }]
+        }]
+    },
+    "footer": {
+        "copyright": "Copyright © 2006 - 2018 Qwikcilver Solutions Pvt. Ltd. All rights reserved.",
+        "menu": [{
+            "label": "Terms of use",
+            "href": "/termsofuse"
+        }, {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+        }, {
+            "label": "ISO 27001 : 2013 certified",
+            "href": "http://www.iso.org/iso/home/standards/certification.htm",
+            "target": "_blank"
+        }],
+        "social": [{
+            "image": "gb_social_icons/facebook.svg",
+            "href": "https://facebook.com/woohoogifting",
+            "target": "_blank"
+        }, {
+            "image": "gb_social_icons/twitter.svg",
+            "href": "https://twitter.com/woohoogifting",
+            "target": "_blank"
+        }, {
+            "image": "gb_social_icons/insta.svg",
+            "href": "https://instagram.com/woohoogifting",
+            "target": "_blank"
+        }, {
+            "image": "gb_social_icons/word.svg",
+            "href": "http://blog.woohoo.in",
+            "target": "_blank"
+        }],
+        "secureImageUrl": "gb_social_icons/secure_image.png"
+    },
+    "home_category": [{
+        "category_id": "26",
+        "view_more": {
+            "show": true,
+            "href": "/more-brands-gift-cards-gift-vouchers"
+        }
+    }, {
+        "category_id": "27",
+        "view_more": {
+            "show": true,
+            "href": "/more-brands-gift-cards-gift-vouchers"
+        }
+    }, {
+        "category_id": "37",
+        "view_more": {
+            "show": false,
+            "href": "/woohoo"
+        }
+    }],
+    "balance_enquiry": {
+        "status": true,
+        "show_pin": true,
+        "image": "CheckBalance/balance_enuiry.png",
+        "heading": "Check your card balance",
+        "description": "To view your card balance enter the 16 digit card number and the 6 digit security code (PIN) on the back of your gift card."
+    },
+    "groupgifting": {
+        "product_id": 7,
+        "product_description": "Receiver will get a %1$s which can be redeemed for any brand gift card on Woohoo.in or Woohoo app.",
+        "contribution_product_id": 69,
+        "coupon_prefix": "GGRBI-"
+    },
+    "store_configuration": {
+        "login_enable": true,
+        "signup_enable": true,
+        "zopim_enabled": true,
+        "login_only_checkout": true,
+        "add_card_payment_network_type": "brand_cards",
+        "account_tabs": ["wallet", "transactions", "receivedGifts"],
+        "segment_key": "8FRoq1CICFuVU9BKAqLvkkAwJj42wxAK",
+        "media_url": "//d2lovok6l778xu.cloudfront.net/mobidev/media/",
+        "branch": {
+            "key": "key_live_iklRotWYTqUOZfmTxUjztgdoCvnGLTtm",
+            "js_url": "https://cdn.branch.io/branch-v1.7.1.min.js"
+        },
+        "clevertap": {
+            "enabled": true,
+            "id": "K55-Z57-K74Z"
+        },
+        "facebook_share": true,
+        "twitter_share": true,
+        "google_plus_share": true,
+        "whatsapp_share": true,
+        "email_share": true,
+        "support_email": "support@woohoo.in",
+        "support_phone": "1-800-227-4214"
+    },
+    "banner": {
+        "woohoo_thanks": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/14_banner.jpg",
+            "alt": "Kindly receive my infinite gratitude for accepting my faults as part of my being. For your sincerity, thank you.",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/15_banner.jpg",
+            "alt": "Life has its trying moments; for your trust, cordiality and unique support; I say a big thank you.",
+            "href": null
+        }],
+        "web_homebanner_mobile": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/44_banner.jpg",
+            "alt": "Home Banner",
+            "href": "upi://pa=abc@abc"
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/45_banner.jpg",
+            "alt": "festival banner",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/45_banner_1.jpg",
+            "alt": "diwali",
+            "href": null
+        }],
+        "gift_land": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/IMG_0073.JPG",
+            "alt": "Prodtwo",
+            "href": "https://qareactweb.woohoo.in/amazon"
+        }],
+        "homebanner": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/banner3_2.jpg",
+            "alt": "web_banner_two",
+            "href": "https://bnc.lt/3KJb/1LIgm0ZWrM",
+            "from_date": "2018-11-13 11:23:00"
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/banner_1440x274.gif",
+            "alt": "Valentines",
+            "href": null,
+            "from_date": "2018-06-26 17:54:00"
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/banner2_2.jpg",
+            "alt": "web_banner_three",
+            "href": "woohoo",
+            "from_date": "2018-09-25 18:14:00"
+        }],
+        "home_widget": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Spar_300x300_1.jpg",
+            "alt": "spar offers",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/300X300.jpg",
+            "alt": "grocery offer",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Grocery-Week_Logo-Unit_300x300.jpg",
+            "alt": "grocery offer",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Unit-300x300.png",
+            "alt": "bad gift",
+            "href": "https://qareactweb.woohoo.in/amazon"
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/Spar_300x300_1_1.jpg",
+            "alt": "spar",
+            "href": null
+        }],
+        "calendar_event_notifications": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/26_banner.png",
+            "alt": "Apple App Store",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/27_banner.png",
+            "alt": "Google Play Store",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/28_banner.png",
+            "alt": "Body Image",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/30_banner.png",
+            "alt": "Special Day",
+            "href": null
+        }, {
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/32_banner.png",
+            "alt": "Tap here to send them a perfect gift.",
+            "href": null
+        }],
+        "gift_land_hd": [{
+            "image": "https://d2lovok6l778xu.cloudfront.net/mobiqastage/media/assets/banner/31_banner.png",
+            "alt": "Woohoo Gift Cards",
+            "href": null
+        }]
+    },
+    "password_options": {
+        "complexity": "^(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[^a-zA-Z0-9_ ]).{8,}$",
+        "complexity_fail_msg": "Alphanumeric Password with 8 characters including Uppercase and 1 special character",
+        "hint_text": "Password should be Minimum 8 alphanumeric with one special character"
+    },
+    "how_to_use_in_store": {
+        "title": "How do I use my Woohoo gift on the app?",
+        "text": [{
+            "title": "Online Store",
+            "text": ["Shop at our partner online website.", "                    Using the app, generate the partner gift card.", "                    At the checkout page, go to the gift card/voucher payment option and use the generated gift card.", "                That's it! Happy Shopping!"]
+        }, {
+            "title": "Offline Store",
+            "text": ["Shop at our offline partner store.", "                    At the checkout counter, generate the partner gift card on the app.", "                    Ask the cashier to manually enter the card details.", "                That's it! Woohoo!"]
+        }]
+    },
+    "_links": {
+        "self": {
+            "href": "/rest/settings"
+        }
+    },
+    "cdn": "dist/react"
+}
